@@ -1,0 +1,402 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sue+Ellen+Francisco&display=swap');
+
+
+
+
+
+body{
+  font-family:'Poppins', sans-serif;
+  
+  padding-left: 5px;
+  padding-right: 5px;
+ 
+ 
+  }
+        
+      
+
+
+.contador{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 20px;
+   text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-style: groove;
+  font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+  
+    
+    
+}
+.contador-animation{
+  animation:flipInX;
+  animation-duration: 2s;
+}
+
+
+#audio{
+ background-image: url(../img/solaizq.png);
+
+
+   background-size: cover;
+   background-repeat: no-repeat;
+   animation: fadeInLeft;
+  animation-duration: 1.5s;
+  
+  
+  }
+
+#audio audio{
+   margin-left: 15px;
+   margin-top: 15%;
+   position: sticky;
+  
+   
+   
+   
+   
+}
+#audio h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5%;
+    line-height: 40px;
+    
+    
+
+}
+.contador span{
+    color: aliceblue;
+    
+    
+}
+.big-numbers{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+
+
+#Fecha h3{
+text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 5%;
+  }
+  #Fecha p{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+
+
+
+#Fecha{
+ background-image: url(../img/flores.1.1.1.jpg) ;
+ background-position: top center;
+ background-size: cover;
+ background-repeat: no-repeat;  
+ backdrop-filter: blur(25px) !important; 
+ height: 50vh;
+ width: 100%;
+ padding-bottom: 150%;
+ padding-top: 5%;
+ z-index: 5;
+ text-align: center;
+}
+#Fecha i{
+  color: coral;
+  background-color: rgba(127, 255, 212, 0.404);
+  border-radius: 50%;
+  font-size: 35px;
+  padding: 10px 15px;
+ 
+  
+  
+  
+}
+
+.section{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
+  
+}
+
+
+  #separador {
+    background-image: url(../img/9.1.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 20vh;
+    width: 100%;
+    padding-bottom: 50px;
+    
+    
+  }
+
+  #separador p{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #Padres h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+   
+    
+  }
+
+
+  #Padres{
+    padding-top: 9%;
+    
+  }
+
+  #Padres h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 8%;
+  }
+
+  #Padres p{
+    padding-top: 10%;
+    text-align: center;
+    font-weight: 500;
+    
+  }
+ 
+  #Padrinos h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 8%;
+  }
+  #Padrinos h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 25px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #itinerario{
+    text-align: center;
+    font-weight: 400;
+    
+
+  }
+
+  .itinerario-animation{
+    animation:zoomIn;
+    animation-duration: 3s;
+    
+
+  }
+  
+
+
+  #itinerario h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    
+  }
+
+  #itinerario h4{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 5%;
+  }
+  #itinerario p{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+
+  #itinerario i{
+    color: coral;
+    font-size: 90px;
+    padding-bottom: 25px;
+    border-radius: 100%;
+    box-shadow: 10px;
+    padding-top: 5%;
+  }
+  #itinerario p{
+    font-weight: 300;
+    padding-top: 5%;
+    font-size: 18px;
+    text-align: center;
+  }
+  #itinerario h6{
+    padding-top: 2%;
+    font-size: 20px;
+    padding-bottom: 5%;
+  }
+
+  .recepcion{
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  #asistencia{
+    text-align: center;
+
+  }
+
+  #asistencia h5{
+   
+    padding-bottom: 5%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+  }
+
+  #asistencia h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+  .boton-primario{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: coral;
+    color: chocolate;
+
+  }
+  .modal-dialog{
+    border-radius: 55px;
+  }
+
+  #nenes{
+    text-align: center;
+    margin-left: 10%  ;
+    
+    padding-bottom: 10%;
+  }
+  #nenes p{
+    font-weight: 300;
+  }
+
+  .card-header i{
+    color: coral;
+    font-size: 35px;
+  }
+
+  .card-title{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+  }
+  .card-text{
+    font-weight: lighter;
+     color: rgb(0, 0, 0);
+    
+  }
+
+  .regalos h5{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 30px;
+  }
+
+
+
+  #Vestimenta{
+    text-align: center;
+    border-style: inset;
+    padding-bottom: 10%;
+    border-color: rgba(0, 255, 255, 0.048);
+  }
+  #Vestimenta i{
+    color: coral;
+    font-size: 55px;
+    padding-bottom: 10%;
+    background-color: rgba(127, 255, 212, 0.096);
+    border-radius: 50%;
+   padding: 10px 15px;
+ 
+
+
+  }
+
+  #Vestimenta h3{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+  }
+
+  #Vestimenta p{
+    font-size: 20px;
+    font-weight: lighter;
+   
+  }
+
+  .vest-animation{
+    animation:lightSpeedInRight;
+    animation-duration: 1s;
+    
+
+  }
+
+  footer{
+    text-align: center;
+    font-family: "Ephesis", cursive;
+   padding-bottom: 35px;
+   padding-left: 15px;
+   padding-right: 15px;
+    align-content: center;
+   
+  }
+
+  footer img{
+    box-shadow: 5px 10px 30px;
+  }
+
+  footer h3{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 55px;
+  }
+  
